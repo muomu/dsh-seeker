@@ -1,0 +1,9 @@
+# dependencies
+node_modules/
+
+# local machine state (skr workspace binding, caches)
+.seeker/
+*.log
+
+# macOS
+.DS_Store

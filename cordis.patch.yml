@@ -1,0 +1,8 @@
+# dsh-seeker bundle for DeepSeek Harness (dsh).
+# 安装到 profile：dsh plugin --profile web add link:/path/to/dsh-seeker
+# 重启 dsh web 后生效（host 半区改动需重启；client 半区后续改动走 HMR）。
+# host 半区：注册 /seeker/api 直连路由（列表/详情/上下文/saved views/创建）。
+# client 半区：侧边栏底部「Seeker」入口 + shell.overlay 全屏工作台覆盖层（零模型）。
+- insert:
+    - id: seeker
+      name: 'dsh-seeker'
